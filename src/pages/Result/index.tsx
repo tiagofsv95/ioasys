@@ -55,7 +55,9 @@ const Result: React.FC = () => {
                 </div>
               </CompanyImg>
               <CompanyInfo>
-                <h1>{company.enterprise_name}</h1>
+                <div>
+                  <h1>{company.enterprise_name}</h1>
+                </div>
                 <h4>{company.enterprise_type.enterprise_type_name}</h4>
                 <p>
                   {(company.city && `${company.city} - `) + company.country}

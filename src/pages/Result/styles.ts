@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { isMobile } from 'react-device-detect';
 
 export const Container = styled.div`
   flex: 1;
@@ -54,4 +55,15 @@ export const CompanyImg = styled.div`
   }
 `;
 
-export const CompanyInfo = styled.div``;
+export const CompanyInfo = styled.div`
+  margin-top: 8px;
+  overflow: hidden;
+
+  div {
+    overflow: hidden;
+
+    h1 {
+      font-size: ${isMobile ? 18 : 28}px;
+    }
+  }
+`;

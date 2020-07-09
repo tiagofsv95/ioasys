@@ -17,7 +17,13 @@
 
 ## Sobre
 
-Uma aplicação simples de login com autenticação e busca de dados a uma api.
+<br/>
+<p>Uma aplicação simples de login com autenticação e busca de dados a uma api.</p>
+
+<p>Foi usado como framework o React, e toda a aplicação foi escrita usando typescript</p>
+
+A aplicação esta hospedada no **[https://ioasys-technical-challenge.web.app/](https://ioasys-technical-challenge.web.app/)**
+
 
 Para executar o projeto basta dar um `git clone https://github.com/tiagofsv95/ioasys.git` no seu console e depois `yarn` para instalar as dependencias. Depois de instalar todas as dependencias basta executar `yarn start`.
 
